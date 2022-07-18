@@ -15,7 +15,7 @@ import (
 	runt "runtime"
 	"strings"
 
-	"github.com/rdorrigan/pkg/runtime"
+	"github.com/rdorrigan/selling-partner-api-sdk/pkg/runtime"
 )
 
 // RequestBeforeFn  is the function signature for the RequestBefore callback function
