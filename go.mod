@@ -1,12 +1,17 @@
-module gopkg.me/selling-partner-api-sdk
+module github.com/rdorrigan/selling-partner-api-sdk
 
-go 1.16
+go 1.17
 
 require (
-	github.com/aws/aws-sdk-go v1.36.23
-	github.com/google/uuid v1.1.4
-	github.com/kr/pretty v0.1.0 // indirect
+	github.com/aws/aws-sdk-go v1.44.56
+	github.com/google/uuid v1.3.0
 	github.com/pkg/errors v0.9.1
-	github.com/stretchr/testify v1.6.1
-	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+	github.com/stretchr/testify v1.8.0
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
