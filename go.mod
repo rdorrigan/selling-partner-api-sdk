@@ -1,4 +1,4 @@
-module github.com/rdorrigan/selling-partner-api-sdk
+module github.com/rdorrigan/selling-partner-api-sdk/v1.2
 
 go 1.17
 
@@ -15,4 +15,5 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-replace selling-partner-api-sdk => github.com/rdorrigan/selling-partner-api-sdk latest
+
+replace selling-partner-api-sdk => github.com/rdorrigan/selling-partner-api-sdk v0.1.0
