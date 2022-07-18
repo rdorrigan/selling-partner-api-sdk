@@ -1,4 +1,4 @@
-module github.com/rdorrigan/selling-partner-api-sdk
+module selling-partner-api-sdk
 
 go 1.17
 
